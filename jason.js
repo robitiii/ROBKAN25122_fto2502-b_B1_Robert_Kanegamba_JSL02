@@ -13,20 +13,22 @@
 //Console log
 
 //- When there is a completed task:
-const userInput = prompt("Enter your task 1 title, description or status");
-
-let meInput = "done";
-switch (userInput){
-    case "todo":
-        console.log("you on the todo list.");
-        break;
-        case "doing":
-            console.log("you are doing this.");
-            break;
-            case "done":
-                console.log("you have completed this.");
-                break;
-                default:
-                    console.log("you have not completed this.");
-                    break;
-}
+  let userInput;
+ while(true){
+     userInput = prompt("Enter your task 1: ");
+  switch (userInput){
+      case "todo":
+          console.log("Title: Make correction to JSL01, status: done");
+          break;
+          case "doing":
+              console.log("Title: Make correction to JSL01, status: done");
+              break;
+              case "done":
+                  console.log("Title: Make correction to JSL01, status: done");
+                  break;
+                  default:
+                      alert("Invalid status. Please enter 'todo', 'doing' or 'done'.");
+                      continue; //back to prompt
+  }
+  break; //only reaches here if input was vaild
+  }
