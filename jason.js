@@ -2,7 +2,7 @@
  while(true){
      userInput = prompt( "Enter"+" Your task 1: ");
      if (userInput==null){
-        alert("no tasks completed let's get to work!")// if the user presses cancel this alert message should pop out!
+        alert("no tasks completed ,let's get to work!")// if the user presses cancel this alert message should pop out!
          continue; //back to prompt.
      }
      
