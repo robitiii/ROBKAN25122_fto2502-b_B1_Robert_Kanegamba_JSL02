@@ -8,15 +8,15 @@
      
   switch (userInput){
       case "todo":
-          console.log("'Title:' Make correction to JSL01, status: todo");
+          console.log("'Title:' Make correction to JSL01, status: todo");// will show on the console brower if user entered todo.
           break;
           case "doing":
-              console.log("Title:");
+              console.log("Title:"); // will show on the console browser if user entered doing.
               break;
               case "done":
-                  console.log("Title: Make correction to JSL01, status: done");
+                  console.log("Title: Make correction to JSL01, status: done"); //will show on the console  browser if user entered done.
                   break;
-                  default:
+                  default: //If all the options were not met it will result to this alert msg.
                  alert("INVALID STATUS. PLEASE ENTER 'TODO', 'DOING' or 'DOING'.".toLowerCase());
                       continue; //back to prompt.
   }
